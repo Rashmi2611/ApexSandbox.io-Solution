@@ -2,8 +2,12 @@ public Integer diff(Integer a, Integer b) {
    if(a>b){
        integer d= a-b;
           }
-   else{
+   else if(a<b)
+    {
      integer d= b-a;
-   }
-   return d;
+    }
+  else if(a=b)
+  {
+      d=a-b;
+  }
 }
