@@ -6,5 +6,7 @@ public Integer diff(Integer a, Integer b) {
     {
      return b-a;
     }
-  
+  else if(a==b){
+      return a-b
+  }
 }
