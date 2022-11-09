@@ -1,5 +1,7 @@
 public Boolean isEndWithZero(Integer num){
-     if(num % ==0){
+    integer num=107;
+    integer endwith = num%10; 
+     if(endwith==0){
          return true;
      }
      else{
